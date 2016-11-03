@@ -1,6 +1,6 @@
 {
   "name": "alexa-speech",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Utility to simplify generating Speech Synthesis Markup Language (SSML) for use with Amazon Alexa",
   "homepage": "",
   "author": {
