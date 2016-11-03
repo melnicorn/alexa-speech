@@ -1,0 +1,27 @@
+{
+  "name": "alexa-speech",
+  "version": "0.0.1",
+  "description": "Utility to simplify generating Speech Synthesis Markup Language (SSML) for use with Amazon Alexa",
+  "homepage": "",
+  "author": {
+    "name": "chris melnick",
+    "email": "cmelnick@gmail.com",
+    "url": "http://chrismelnick.com"
+  },
+  "files": [
+    "alexa-speech.js"
+  ],
+  "main": "alexa-speech.js",
+  "keywords": [
+    "alexa",
+	"ssml",
+	"speech",
+    "utility"
+  ],
+  "devDependencies": {
+  },
+  "repository": "melnicorn/alexa-speech",
+  "scripts": {
+  },
+  "license": "MIT"
+}
