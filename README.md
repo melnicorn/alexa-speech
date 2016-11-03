@@ -10,7 +10,7 @@ $ npm install --save alexa-speech
 ## Usage
 
 ```js
-var AlexaSpeech = require('./alexa-speech');
+var AlexaSpeech = require('alexa-speech');
 
 var speech = new AlexaSpeech.Speech();
 
