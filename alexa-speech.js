@@ -22,7 +22,7 @@ Speech.prototype.add = function(text) {
 
 Speech.prototype.pause = function(length) {
 	// TODO support sec and ms
-	this.parts.push(function() { return '<break time="' + length + '"s/>'; });
+	this.parts.push(function() { return '<break time="' + length + 's"/>'; });
 	return this;
 }
 

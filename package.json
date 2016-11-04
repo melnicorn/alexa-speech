@@ -1,6 +1,6 @@
 {
   "name": "alexa-speech",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Utility to simplify generating Speech Synthesis Markup Language (SSML) for use with Amazon Alexa",
   "homepage": "",
   "author": {
@@ -19,9 +19,11 @@
     "utility"
   ],
   "devDependencies": {
+    "mocha": "^3.1.2"
   },
   "repository": "melnicorn/alexa-speech",
   "scripts": {
+		"test": "node_modules/.bin/mocha"
   },
   "license": "MIT"
 }
