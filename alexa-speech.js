@@ -122,4 +122,9 @@ Speech.prototype.price = function(amount) {
 	return this;
 }
 
+Speech.prototype.interjection = function(interjection) {
+	this.parts.push(function() { return '<say-as interpret-as="interjection">' + interjection + '</say-as>'; });
+	return this;
+}
+
 exports.Speech = Speech;
