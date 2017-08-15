@@ -188,6 +188,16 @@ describe('AlexaSpeech#time', function () {
 	});
 });
 
+describe('AlexaSpeech#interjection', function () {
+	it('should say as interjection', function() {
+		var speech = new AlexaSpeech.Speech();
+
+		speech.interjection("gotcha!");
+
+		assert.equal('<speak><say-as interpret-as="interjection">gotcha!</say-as></speak>', speech.render());
+	});
+});
+
 describe('AlexaSpeech#price', function () {
 	it('should say as price dollars only', function() {
 		var speech = new AlexaSpeech.Speech();
